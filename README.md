@@ -1,3 +1,8 @@
+
+<img width="1379" alt="Screenshot 2023-06-20 at 1 19 56 AM" src="https://github.com/Chdh11/Todo-List/assets/88371335/a92721a5-2c0d-4567-b4d9-7560960a4044">
+<img width="1382" alt="Screenshot 2023-06-20 at 1 24 13 AM" src="https://github.com/Chdh11/Todo-List/assets/88371335/fbe6cc9b-79a3-4de1-a229-1599d2e925fd">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
