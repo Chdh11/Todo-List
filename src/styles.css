@@ -1,0 +1,146 @@
+body{
+    background-color: #5f99f5;
+}
+.heading-bar{
+    display:flex;
+    justify-content: space-evenly;
+    width:600px;
+    height: 60px;
+    margin: 25px auto 20px auto;
+    align-items: center;
+}
+.heading-bar h1{
+    color: white;
+    font-size: 50px;
+    width:350px;
+    margin:10px auto 10px 0px;
+    text-align: left;
+}
+.heading-bar img{
+    width:35px;
+    height: 35px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.heading-bar button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:4px;
+    margin-right: 4px;
+    width:45px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    color: rgb(82, 81, 81);
+}
+.heading-bar img:hover{
+    cursor: pointer;
+}
+.heading-bar button:hover{
+    background-color: rgb(232, 231, 231);
+    color: rgb(48, 47, 47);
+    cursor: pointer;
+}
+.input-task-window{
+    padding: 30px 5px 30px 5px;
+    margin: auto;
+    border:none;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    background-color: white;
+}
+.input-task-window input{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 532px;
+    height: 35px;
+}
+.input-task-window button{
+    width:547px;
+    height: 43px;
+    background-color: #5f99f5;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+.input-task-window button:hover{
+    cursor: pointer;
+}
+.task p{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top:50px;
+}
+
+/* before applying strikethrough */
+.task-window{
+    background-color: white;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 600px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px 5px 20px 5px;
+}
+.task-window label{
+    flex-grow: 1;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.task-window input{
+    padding: 0 5px 0 5px;
+    width:30px;
+    height:16px;
+    
+}
+.task-window img{
+    padding: 0 15px 0 8px;
+    width:30px;
+    height: 30px;
+}
+.task-window img:hover{
+    cursor: pointer;
+}
+
+/* after appling strikethrough */
+.taskWin{
+    background-color: white;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 600px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px 5px 20px 5px;
+}
+.taskWin label{
+    flex-grow: 1;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.taskWin input{
+    padding: 0 5px 0 5px;
+    width:30px;
+    height:16px;
+    
+}
+.taskWin img{
+    padding: 0 15px 0 8px;
+    width:30px;
+    height: 30px;
+}
+.taskWin img:hover{
+    cursor: pointer;
+}
